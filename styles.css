@@ -1,0 +1,25 @@
+.skip-link { position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden; }
+.skip-link:focus { position:static; left:auto; width:auto; height:auto; padding:0.5rem; background:#000; color:#fff; z-index:1000; }
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  margin: 0;
+  background-color: #fff;
+  color: #222;
+  line-height: 1.6;
+}
+header { position: relative; text-align: center; padding: 4rem 1rem 2rem 1rem; }
+header h1 { font-size: 2.5rem; font-weight: 600; letter-spacing: 1px; }
+header h2 { font-size: 1.2rem; font-weight: 400; color: #555; margin-top: 0.5rem; }
+.flags { position: absolute; top: 1rem; right: 1rem; margin: 0; }
+.flags a { margin: 0 0.25rem; text-decoration: none; font-size: 1.5rem; opacity: 0.7; filter: grayscale(30%); transition: opacity .15s ease, filter .15s ease; }
+.flags a:hover, .flags a:focus { opacity: 1; filter: none; }
+
+/* Make address text non-italic */
+address { font-style: normal; }
+main { max-width: 800px; margin: 0 auto; padding: 2rem; }
+section { margin-bottom: 3rem; }
+h3 { font-size: 1.5rem; font-weight: 600; border-bottom: 1px solid #ddd; padding-bottom: 0.5rem; margin-bottom: 1rem; }
+p { margin-bottom: 1rem; }
+footer { text-align: center; padding: 2rem 1rem; font-size: 0.9rem; color: #777; border-top: 1px solid #eee; }
+a { color: #1c355e; text-decoration: none; }
+a:hover { text-decoration: underline; }
