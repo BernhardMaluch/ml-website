@@ -49,11 +49,35 @@ a:hover { text-decoration: underline; }
   text-decoration: none;
   font-size: 1.5rem;
   line-height: 1;
-  transition: transform 0.2s ease;
+  opacity: 0.7;
+  filter: grayscale(40%);
+  transition: opacity 0.2s ease, filter 0.2s ease, transform 0.2s ease;
 }
 
 .language-nav a:hover,
 .language-nav a:focus {
-  transform: scale(1.2);
+  opacity: 1;
+  filter: none;
+  transform: scale(1.15);
 }
-/* cache refresh*/
+
+/* Mobile layout: flags above the firm name */
+@media (max-width: 600px) {
+  .header-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .language-nav {
+    position: static;
+    order: -1; /* move flags before the heading */
+    margin-bottom: 1rem;
+  }
+
+  .language-nav ul {
+    justify-content: center;
+  }
+}
+
+
