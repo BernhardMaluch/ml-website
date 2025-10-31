@@ -7,6 +7,9 @@ body {
   color: #222;
   line-height: 1.6;
 }
+.header-inner {
+  position: relative;
+}
 header { position: relative; text-align: center; padding: 4rem 1rem 2rem 1rem; }
 header h1 { font-size: 2.5rem; font-weight: 600; letter-spacing: 1px; }
 header h2 { font-size: 1.2rem; font-weight: 400; color: #555; margin-top: 0.5rem; }
@@ -23,3 +26,34 @@ p { margin-bottom: 1rem; }
 footer { text-align: center; padding: 2rem 1rem; font-size: 0.9rem; color: #777; border-top: 1px solid #eee; }
 a { color: #1c355e; text-decoration: none; }
 a:hover { text-decoration: underline; }
+
+/* === Language flags top right === */
+.language-nav {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.language-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 0.5rem;
+}
+.language-nav li {
+  list-style-type: none;
+}
+
+.language-nav a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+.language-nav a:hover,
+.language-nav a:focus {
+  transform: scale(1.2);
+}
+/* v2.1 - cache refresh*/
