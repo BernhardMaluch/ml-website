@@ -79,5 +79,9 @@ a:hover { text-decoration: underline; }
     justify-content: center;
   }
 }
+.phone-link svg {
+  vertical-align: middle;
+  margin-right: 4px;
+}
 
 
