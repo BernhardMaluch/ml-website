@@ -4,7 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maluch Legal | Gesellschaftsrecht & M&A</title>
-  <meta name="description" content="Bernhard Maluch, Rechtsanwalt in Frankfurt am Main, spezialisiert auf Gesellschaftsrecht, M&A, Venture Capital, Private Equity und Schiedsgerichtsbarkeit.">
+  <meta name="description" content="Bernhard Maluch, Rechtsanwalt in Frankfurt am Main, spezialisiert auf Gesellschaftsrecht, M&A, Venture Capital, Private Equity, Prozessführung und Schiedsverfahren.">
+
+  <!-- Geo metadata for Frankfurt office -->
+  <meta name="geo.region" content="DE-HE">
+  <meta name="geo.placename" content="Frankfurt am Main">
+  <meta name="geo.position" content="50.1122;8.6718">
+  <meta name="ICBM" content="50.1122, 8.6718">
+
   <meta name="robots" content="index, follow">
   <meta name="color-scheme" content="light dark">
   <meta http-equiv="Cache-Control" content="max-age=31536000, must-revalidate">
@@ -97,34 +104,75 @@
 
   <!-- Schema.org structured data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LegalService",
-    "name": "Maluch Legal",
-    "url": "https://maluch-legal.com/",
-    "areaServed": "DE",
-    "priceRange": "$$$",
-    "foundingDate": "2020",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Opernplatz 14",
-      "addressLocality": "Frankfurt am Main",
-      "postalCode": "60313",
-      "addressCountry": "DE"
-    },
-    "founder": {
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
       "@type": "Person",
-      "name": "Bernhard Maluch"
+      "name": "Bernhard Maluch",
+      "jobTitle": "Rechtsanwalt",
+      "worksFor": {
+        "@type": "LegalService",
+        "name": "Maluch Legal",
+        "url": "https://maluch-legal.com/",
+        "logo": "https://maluch-legal.com/og-image.png",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Opernplatz 14",
+          "addressLocality": "Frankfurt am Main",
+          "postalCode": "60313",
+          "addressCountry": "DE"
+        }
+      },
+      "url": "https://maluch-legal.com/de/",
+      "sameAs": [
+        "https://www.linkedin.com/in/bernhardmaluch/",
+        "https://maluch-legal.com/"
+      ],
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "Eberhard Karls Universität Tübingen" },
+        { "@type": "CollegeOrUniversity", "name": "Université de Genève" },
+        { "@type": "CollegeOrUniversity", "name": "Ruprecht-Karls-Universität Heidelberg" }
+        { "@type": "CollegeOrUniversity", "name": "Chartered Institute of Arbitrators (CIArb), London" }
+      ],
+      "knowsAbout": [
+        "Gesellschaftsrecht",
+        "Mergers & Acquisitions",
+        "Venture Capital",
+        "Private Equity",
+        "Schiedsverfahren",
+        "Schiedsrichter",
+        "Prozessführung",
+        "Handelsrecht",
+        "DIS Schiedsordnung",
+        "ICC Schiedsgerichtsbarkeit",
+        "LCIA",
+        "DIAC",
+        "SIAC"
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Schiedsrichter",
+        "description": "Tätig als Parteivertreter und Schiedsrichter in nationalen und internationalen Schiedsverfahren (DIS, ICC, LCIA, DIAC, SIAC, ad hoc)."
+      }
     },
-    "sameAs": ["https://www.linkedin.com/in/bernhardmaluch/"],
-    "contactPoint": [{
-      "@type": "ContactPoint",
-      "telephone": "+49-69-153-294-521",
-      "contactType": "customer service",
-      "areaServed": "DE"
-    }]
-  }
-  </script>
+    {
+      "@type": "LegalService",
+      "name": "Maluch Legal",
+      "url": "https://maluch-legal.com/",
+      "areaServed": "International",
+      "foundingDate": "2025",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+49-69-153-294-521",
+        "contactType": "Kanzlei",
+        "areaServed": "International"
+      }
+    }
+  ]
+}
+</script>
+
 </head>
 <body>
   <a href="#main" class="skip-link">Zum Inhaltsbereich</a>

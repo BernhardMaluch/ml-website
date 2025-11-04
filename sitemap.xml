@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Root redirect -->
+  <url>
+    <loc>https://maluch-legal.com/</loc>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://maluch-legal.com/de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maluch-legal.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://maluch-legal.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maluch-legal.com/" />
+  </url>
+
+  <!-- German pages -->
+  <url>
+    <loc>https://maluch-legal.com/de/</loc>
+    <lastmod>2025-11-04</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://maluch-legal.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://maluch-legal.com/fr/" />
+  </url>
+  <url>
+    <loc>https://maluch-legal.com/de/impressum.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://maluch-legal.com/de/datenschutzerklaerung.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- English pages -->
+  <url>
+    <loc>https://maluch-legal.com/en/</loc>
+    <lastmod>2025-11-04</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://maluch-legal.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://maluch-legal.com/fr/" />
+  </url>
+  <url>
+    <loc>https://maluch-legal.com/en/imprint.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://maluch-legal.com/en/privacy.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- French pages (placeholders) -->
+  <url>
+    <loc>https://maluch-legal.com/fr/</loc>
+    <lastmod>2025-11-04</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://maluch-legal.com/de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maluch-legal.com/en/" />
+  </url>
+  <url>
+    <loc>https://maluch-legal.com/fr/mentions-legales.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://maluch-legal.com/fr/politique-confidentialite.html</loc>
+    <priority>0.6</priority>
+  </url>
+</urlset>

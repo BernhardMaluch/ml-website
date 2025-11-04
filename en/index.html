@@ -4,7 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maluch Legal | Corporate Law & M&A</title>
-  <meta name="description" content="Bernhard Maluch, attorney at law in Frankfurt, specialized in corporate law, M&A, venture capital, private equity, and arbitration.">
+  <meta name="description" content="Bernhard Maluch, attorney at law in Frankfurt, specialized in corporate law, M&A, venture capital, private equity, litigation and arbitration.">
+  
+  <!-- Geo metadata for Frankfurt office -->
+  <meta name="geo.region" content="DE-HE">
+  <meta name="geo.placename" content="Frankfurt am Main">
+  <meta name="geo.position" content="50.1122;8.6718">
+  <meta name="ICBM" content="50.1122, 8.6718">
+
   <meta name="robots" content="index, follow">
   <meta name="color-scheme" content="light dark">
   <meta http-equiv="Cache-Control" content="max-age=31536000, must-revalidate">
@@ -96,35 +103,77 @@
   <meta name="twitter:card" content="summary_large_image">
 
   <!-- Schema.org structured data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LegalService",
-    "name": "Maluch Legal",
-    "url": "https://maluch-legal.com/",
-    "areaServed": "International",
-    "priceRange": "$$$",
-    "foundingDate": "2020",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Opernplatz 14",
-      "addressLocality": "Frankfurt am Main",
-      "postalCode": "60313",
-      "addressCountry": "DE"
-    },
-    "founder": {
+ <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
       "@type": "Person",
-      "name": "Bernhard Maluch"
+      "name": "Bernhard Maluch",
+      "jobTitle": "Attorney at Law",
+      "worksFor": {
+        "@type": "LegalService",
+        "name": "Maluch Legal",
+        "url": "https://maluch-legal.com/",
+        "logo": "https://maluch-legal.com/og-image.png",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Opernplatz 14",
+          "addressLocality": "Frankfurt am Main",
+          "postalCode": "60313",
+          "addressCountry": "DE"
+        }
+      },
+      "url": "https://maluch-legal.com/en/",
+      "sameAs": [
+        "https://www.linkedin.com/in/bernhardmaluch/",
+        "https://maluch-legal.com/"
+      ],
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "University of Tübingen" },
+        { "@type": "CollegeOrUniversity", "name": "University of Geneva" },
+        { "@type": "CollegeOrUniversity", "name": "University of Heidelberg" }
+        { "@type": "CollegeOrUniversity", "name": "Chartered Institute of Arbitrators (CIArb), London" }  
+      ],
+      "knowsAbout": [
+        "Corporate Law",
+        "Mergers and Acquisitions",
+        "Venture Capital",
+        "Private Equity",
+        "Arbitration",
+        "International Arbitration",
+        "Arbitrator",
+        "Litigation",
+        "Commercial Disputes",
+        "DIS Arbitration",
+        "ICC Arbitration",
+        "LCIA",
+        "DIAC",
+        "SIAC"
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Arbitrator",
+        "description": "Acts as counsel and arbitrator in domestic and international arbitration proceedings (DIS, ICC, LCIA, DIAC, SIAC, ad hoc)."
+      }
     },
-    "sameAs": ["https://www.linkedin.com/in/bernhardmaluch/"],
-    "contactPoint": [{
-      "@type": "ContactPoint",
-      "telephone": "+49-69-153-294-521",
-      "contactType": "customer service",
-      "areaServed": "International"
-    }]
-  }
-  </script>
+    {
+      "@type": "LegalService",
+      "name": "Maluch Legal",
+      "url": "https://maluch-legal.com/",
+      "areaServed": "International",
+      "foundingDate": "2025",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+49-69-153-294-521",
+        "contactType": "Legal services",
+        "areaServed": "International"
+      }
+    }
+  ]
+}
+</script>
+
 </head>
 <body>
   <a href="#main" class="skip-link">Skip to content</a>
