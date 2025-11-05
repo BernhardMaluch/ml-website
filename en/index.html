@@ -112,24 +112,20 @@
       "name": "Bernhard Maluch",
       "jobTitle": "Attorney at Law",
       "description": "Attorney at law specializing in corporate law, mergers and acquisitions, domestic and international arbitration and litigation.",
-      "worksFor": {
-        "@type": "LegalService",
-        "name": "Maluch Legal",
-        "url": "https://maluch-legal.com/",
-        "logo": "https://maluch-legal.com/og-image.png",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Opernplatz 14",
-          "addressLocality": "Frankfurt am Main",
-          "postalCode": "60313",
-          "addressCountry": "DE"
-        }
-      },
-      "url": "https://maluch-legal.com/en/",
+      "worksFor": { "@id": "#maluchlegal" },
+      "image": "https://maluch-legal.com/og-image.png",
+      "url": "https://maluch-legal.com/de/",
       "sameAs": [
-        "https://www.linkedin.com/in/bernhardmaluch/",
-        "https://maluch-legal.com/"
+         "https://www.linkedin.com/in/bernhardmaluch/",
+         "https://maluch-legal.com/"
       ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Opernplatz 14",
+        "addressLocality": "Frankfurt am Main",
+        "postalCode": "60313",
+        "addressCountry": "Germany"
+      },
       "alumniOf": [
         { "@type": "CollegeOrUniversity", "name": "University of Tübingen" },
         { "@type": "CollegeOrUniversity", "name": "University of Geneva" },
@@ -159,6 +155,7 @@
       }
     },
     {
+      "@id": "#maluchlegal", 
       "@type": "LegalService",
       "name": "Maluch Legal",
       "url": "https://maluch-legal.com/",
