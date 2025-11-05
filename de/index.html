@@ -104,14 +104,52 @@
 
   <!-- Schema.org structured data -->
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Person",
-      "name": "Bernhard Maluch",
-      "jobTitle": "Rechtsanwalt",
-      "worksFor": {
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "name": "Bernhard Maluch",
+        "jobTitle": "Rechtsanwalt",
+        "worksFor": {
+          "@type": "LegalService",
+          "name": "Maluch Legal",
+          "url": "https://maluch-legal.com/",
+          "logo": "https://maluch-legal.com/og-image.png"
+        },
+        "url": "https://maluch-legal.com/de/",
+        "sameAs": [
+          "https://www.linkedin.com/in/bernhardmaluch/",
+          "https://maluch-legal.com/"
+        ],
+        "alumniOf": [
+          { "@type": "CollegeOrUniversity", "name": "Eberhard Karls Universität Tübingen" },
+          { "@type": "CollegeOrUniversity", "name": "Université de Genève" },
+          { "@type": "CollegeOrUniversity", "name": "Ruprecht-Karls-Universität Heidelberg" },
+          { "@type": "CollegeOrUniversity", "name": "Chartered Institute of Arbitrators (CIArb), London" }
+        ],
+        "knowsAbout": [
+          "Gesellschaftsrecht",
+          "Mergers & Acquisitions",
+          "Venture Capital",
+          "Private Equity",
+          "Schiedsverfahren",
+          "Schiedsrichter",
+          "Prozessführung",
+          "Handelsrecht",
+          "DIS Schiedsordnung",
+          "ICC Schiedsgerichtsbarkeit",
+          "LCIA",
+          "DIAC",
+          "SIAC"
+        ],
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": "Schiedsrichter",
+          "description": "Tätig als Parteivertreter und Schiedsrichter in nationalen und internationalen Schiedsverfahren (DIS, ICC, LCIA, DIAC, SIAC, ad hoc)."
+        }
+      },
+      {
         "@type": "LegalService",
         "name": "Maluch Legal",
         "url": "https://maluch-legal.com/",
@@ -122,56 +160,19 @@
           "addressLocality": "Frankfurt am Main",
           "postalCode": "60313",
           "addressCountry": "DE"
+        },
+        "areaServed": "International",
+        "foundingDate": "2025",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+49-69-153-294-521",
+          "contactType": "Kanzlei",
+          "areaServed": "International"
         }
-      },
-      "url": "https://maluch-legal.com/de/",
-      "sameAs": [
-        "https://www.linkedin.com/in/bernhardmaluch/",
-        "https://maluch-legal.com/"
-      ],
-      "alumniOf": [
-        { "@type": "CollegeOrUniversity", "name": "Eberhard Karls Universität Tübingen" },
-        { "@type": "CollegeOrUniversity", "name": "Université de Genève" },
-        { "@type": "CollegeOrUniversity", "name": "Ruprecht-Karls-Universität Heidelberg" },
-        { "@type": "CollegeOrUniversity", "name": "Chartered Institute of Arbitrators (CIArb), London" }
-      ],
-      "knowsAbout": [
-        "Gesellschaftsrecht",
-        "Mergers & Acquisitions",
-        "Venture Capital",
-        "Private Equity",
-        "Schiedsverfahren",
-        "Schiedsrichter",
-        "Prozessführung",
-        "Handelsrecht",
-        "DIS Schiedsordnung",
-        "ICC Schiedsgerichtsbarkeit",
-        "LCIA",
-        "DIAC",
-        "SIAC"
-      ],
-      "hasOccupation": {
-        "@type": "Occupation",
-        "name": "Schiedsrichter",
-        "description": "Tätig als Parteivertreter und Schiedsrichter in nationalen und internationalen Schiedsverfahren (DIS, ICC, LCIA, DIAC, SIAC, ad hoc)."
       }
-    },
-    {
-      "@type": "LegalService",
-      "name": "Maluch Legal",
-      "url": "https://maluch-legal.com/",
-      "areaServed": "International",
-      "foundingDate": "2025",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+49-69-153-294-521",
-        "contactType": "Kanzlei",
-        "areaServed": "International"
-      }
-    }
-  ]
-}
-</script>
+    ]
+  }
+  </script>
 
 </head>
 <body>
