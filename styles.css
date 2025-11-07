@@ -84,3 +84,15 @@ a:hover { text-decoration: underline; }
   vertical-align: middle;
   margin-right: 4px;
 }
+/* Keep focus visible for keyboard users, but restyle it for subtlety */
+:focus-visible {
+  outline: 2px solid #b59f80;   /* warm beige-brown tone matching your palette */
+  outline-offset: 3px;
+  border-radius: 2px;
+  transition: outline-color 0.2s ease;
+}
+
+/* Hide outline for mouse clicks but keep it for keyboard navigation */
+:focus:not(:focus-visible) {
+  outline: none;
+}
